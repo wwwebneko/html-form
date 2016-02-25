@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css" >
+    </head>
+
+    <body>
+        <div class="wraper">
+            <h1>
+                <img src="img/title.svg" alt="html forms">
+            </h1>
+            <form action="something.php">
+                <section>
+                    <h2>Text inputs</h2>
+                    <!-- input type="text" -->
+                    <p>
+                        <label>
+                            <input type="text" name="text input" placeholder="Type text here">
+                        </label>
+                    </p>
+
+                    <!-- input type="text" readonly -->
+                    <p>
+                        <label>
+                            <input type="text" name="readonly text" value="This text can't be changed" readonly >
+                            <code>readonly</code>
+                        </label>
+                    </p>
+
+                    <!-- input type="text" dir="rtl"-->
+                    <p>
+                        <label>
+                            <input type="text" name="text with dif. derection" placeholder="Type text here" dir="rtl">
+                            <code>dir="rtl"</code>
+                        </label>
+                    </p>
+                </section>
+                <section>
+                    <h2>Search input</h2>
+                    <!-- input type="search" -->
+                    <p>
+                        <label>
+                            <input type="search" name="search text" placeholder="Search">
+                        </label>
+                    </p>
+                </section>
+                <section>
+                    <h2>Telephone input</h2>
+                    <!-- input type="tel" -->
+                    <p>
+                        <label>
+                            <input type="tel" name="tel number" placeholder="Type your phone number here"  pattern="[0-9]+">
+                            <span class="note">Format: country code - operator code - number</span>
+                        </label>
+
+                    </p>
+                </section>
+                <section>
+                    <h2>URL input</h2>
+
+                    <!-- input type="url" -->
+                    <p>
+                        <label>
+                            <input type="url" name="url" placeholder="Type website address" list="urls">
+                            <span class="note">Try to type 'google'</span>
+                        </label>
+
+                        <datalist id="urls">
+                            <option label="Google" value="https://www.google.com/">
+                            <option label="Google mail" value="https://mail.google.com/">
+                            <option label="Google maps" value="https://maps.google.com/">
+                        </datalist>
+                    </p>
+                </section>
+                <section>
+                    <h2>Email input</h2>
+                    <!-- input type="email" -->
+                    <p>
+                        <label>
+                            <input type="email" name="email" placeholder="Type your email " maxlength="200">
+                        </label>
+                    </p>
+                    <!-- input type="email" -->
+                    <p>
+                        <label>
+                            <input type="email" name="email" placeholder="Type few emails" maxlength="200" multiple>
+                            <span class="note">Separate emails with ","</span>
+                        </label>
+
+                    </p>
+                </section>
+                <section>
+                    <h2>Password input</h2>
+                    <!-- input type="password" -->
+                    <p>
+                        <label>
+                            <input type="password" name="password" placeholder="Your password" pattern=".{8,}$">
+                            <span class="note">Password must contain more then 8 characters</span>
+                        </label>
+                    </p>
+                </section>
+                <section>
+                    <h2>Date and time inputs</h2>
+                    <!-- input type="datetime" -->
+                    <p>
+                        <label>
+                            <input type="datetime" name="date and time" placeholder="Type date and time">
+                            <code>input type="datetime"</code>
+                        </label>
+                    </p>
+
+                    <!-- input type="date" -->
+                    <p>
+                        <label>
+                            <input type="date" name="date" placeholder="Some date">
+                            <code>input type="date"</code>
+                        </label>
+                    </p>
+
+                    <!-- input type="month" -->
+                    <p>
+                        <label>
+                            <input type="month" name="month" placeholder="Some month">
+                            <code>input type="month"</code>
+                        </label>
+                    </p>
+
+                    <!-- input type="week" -->
+                    <p>
+                        <label>
+                            <input type="week" name="week" placeholder="Some week">
+                            <code>input type="week"</code>
+                        </label>
+                    </p>
+
+                    <!-- input type="time" -->
+                    <p>
+                        <label>
+                            <input type="time" name="time" placeholder="Some time">
+                            <code>input type="time"</code>
+                        </label>
+                    </p>
+                </section>
+                <section>
+                    <h2>Numeric input</h2>
+                    <!-- input type="number" -->
+                    <p>
+                        <label>
+                            <input type="number" name="number" min="10" max="50" step="10" placeholder="Enter number less than 50" >
+                        </label>
+                    </p>
+                </section>
+                <section>
+                    <h2>checkbox</h2>
+                    <fieldset>
+                        <legend>select something</legend>
+                        <code>select smth</code>
+                        <p>
+                            <input type="checkbox" name="check-box" id="option-1">
+                            <label for="option-1">
+                                Option 1
+                            </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="check-box" id="option-2">
+                            <label for="option-2">
+                                Option 2
+                            </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="check-box" id="option-3" checked disabled>
+                            <label for="option-3">
+                                Option 3
+                            </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="check-box" id="option-4" checked>
+                            <label for="option-4">
+                                Option 4
+                            </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="check-box" id="option-5" >
+                            <label for="option-5">
+                                Option 5
+                            </label>
+                        </p>
+                    </fieldset>
+                </section>
+                <section>
+                    <h2>radio</h2>
+                    <fieldset>
+                        <legend>select something</legend>
+                        <code>select smth</code>
+                        <p>
+                            <input type="radio" name="radio" id="radio-1">
+                            <label for="radio-1">
+                                Option 1
+                            </label>
+                        </p>
+                        <p>
+                            <input type="radio" name="radio" id="radio-2">
+                            <label for="radio-2">
+                                Option 2
+                            </label>
+                        </p>
+                        <p>
+                            <input type="radio" name="radio" id="radio-3">
+                            <label for="radio-3">
+                                Option 3
+                            </label>
+                        </p>
+                        <p>
+                            <input type="radio" name="radio" id="radio-4">
+                            <label for="radio-4">
+                                Option 4
+                            </label>
+                        </p>
+                        <p>
+                            <input type="radio" name="radio" id="radio-5">
+                            <label for="radio-5">
+                                Option 5
+                            </label>
+                        </p>
+                    </fieldset>
+                </section>
+                <!--
+                <section>
+                    <h2>select box</h2>
+                    <p>
+                        <label>
+                            <select>
+                                <option selected >Select number</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            <img class="icon" src="img/icons.svg#arrow-dark-view" >
+                        </label>
+                    </p>
+                </section>
+                -->
+                <section>
+                    <h2>Text area</h2>
+                    <!-- textarea -->
+                    <p>
+                        <label>
+                            <textarea name="message" placeholder="type here"></textarea>
+                        </label>
+                    </p>
+                </section>
+                <section>
+                    <h2>Buttons</h2>
+                    <p class="button">
+                        <button type="reset">clear</button>
+                    </p>
+                    <p class="button">
+                        <button type="submit">ok</button>
+                    </p>
+                    <code>Simple</code>
+
+                    <p class="button">
+                        <button type="reset" class="icon">
+                        <span class="icon"></span>
+                        clear
+                        </button>
+                    </p>
+                    <p class="button">
+                        <button type="submit" class="icon">
+                            ok
+                        </button>
+                    </p>
+                    <code>With icons</code>
+                </section>
+            </form>
+            <footer>
+                <code>made by webneko 2016</code>
+            </footer>
+        </div>
+        <div class="top-line"></div>
+        <div class="bottom-line"></div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 210" enable-background="new 0 0 48 210" xml:space="preserve">
+<view  id="arrow-dark-view" viewBox="0 0 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="arrow-green-view" viewBox="0 24 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="magnifier-view" viewBox="0 48 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="dot-view" viewBox="0 72 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="check-green-view" viewBox="0 96 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="mail-view" viewBox="0 120 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="tel-view" viewBox="0 144 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="cross-view" viewBox="0 168 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+<view  id="check-dark-view" viewBox="24 96 24 24" zoomAndPan="magnify" preserveAspectRatio="xMidYMid meet"></view>
+
+<g id="arrow-dark">
+	<path fill="#404A58" d="M17.332,6.736l1.776,1.811L12,15.622L4.893,8.547l1.777-1.81L12,12.07L17.332,6.736z"/>
+</g>
+<g id="arrow-green">
+	<path fill="#DFEAB9" d="M17.337,30.288l1.777,1.813L12,39.18l-7.116-7.082l1.777-1.813L12,35.622L17.337,30.288z"/>
+</g>
+<g id="magnifier">
+	<path fill="#3F4957" d="M20.799,66.686l-4.391-4.377c0.828-1.129,1.318-2.521,1.318-4.021c0-3.779-3.078-6.859-6.866-6.859
+		c-3.777,0-6.866,3.08-6.866,6.859c0,3.779,3.082,6.854,6.866,6.854c1.441,0,2.769-0.429,3.875-1.188l4.396,4.402L20.799,66.686z
+		 M6.014,58.289c0-2.682,2.181-4.852,4.861-4.852c2.674,0,4.841,2.169,4.841,4.852c0,2.668-2.172,4.854-4.841,4.854
+		C8.189,63.136,6.014,60.962,6.014,58.289z"/>
+</g>
+<g id="dot">
+	<circle fill="#DFEAB8" cx="12" cy="84" r="3.827"/>
+</g>
+<g id="check-green">
+	<path fill="#DFEAB8" d="M16.481,102.678l-6.104,6.256l-2.857-2.709l-2.009,2.008l4.866,4.723l8.112-8.268L16.481,102.678z"/>
+</g>
+<g id="mail">
+	<path fill="#3F4957" d="M12.002,132.508l-7.83-6.333h15.643L12.002,132.508z M8.46,131.316l-4.287-3.478v8.149L8.46,131.316z
+		 M15.54,131.316l4.286,4.679v-8.154L15.54,131.316z M14.523,132.145l-2.524,2.041l-2.52-2.041l-5.3,5.771h15.637L14.523,132.145z"
+		/>
+</g>
+<g id="tel">
+	<path fill="#3E4856" d="M17.076,148.802c0-0.795-0.648-1.454-1.452-1.454H8.381c-0.8,0-1.457,0.659-1.457,1.454v14.486
+		c0,0.812,0.655,1.46,1.457,1.46h7.246c0.801,0,1.449-0.648,1.449-1.46V148.802L17.076,148.802z M10.917,148.802h2.179
+		c0.188,0,0.357,0.16,0.357,0.367c0,0.195-0.156,0.356-0.357,0.356h-2.179c-0.201,0-0.37-0.161-0.37-0.356
+		C10.551,148.963,10.715,148.802,10.917,148.802z M12.008,163.297c-0.399,0-0.725-0.318-0.725-0.721
+		c0-0.396,0.325-0.729,0.725-0.729c0.396,0,0.729,0.332,0.729,0.729C12.727,162.979,12.413,163.297,12.008,163.297z M15.63,161.124
+		H8.387v-10.167h7.243V161.124L15.63,161.124z"/>
+</g>
+<g id="cross">
+	<polygon fill="#DFEAB8" points="17.813,175.71 16.36,174.232 12,178.594 7.641,174.232 6.188,175.71 10.559,180.063 6.188,184.415
+		7.641,185.893 12,181.531 16.36,185.893 17.813,184.415 13.44,180.063 "/>
+</g>
+<g id="check-dark">
+	<path fill="#3F4957" d="M40.932,102.083l-6.812,6.979l-3.186-3.022l-2.242,2.24l5.428,5.271l9.049-9.225L40.932,102.083z"/>
+</g>
+</svg>
